@@ -1,0 +1,34 @@
+.in-progress-list {
+  flex: 1;
+  background-color: white;
+  border-radius: 5px;
+  padding: 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.in-progress-list h2 {
+  color: #dc3545;
+}
+
+.in-progress-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.in-progress-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #e9ecef;
+  padding: 10px 0;
+}
+
+.in-progress-list button {
+  margin-left: 10px;
+  background-color: #ffc107;
+  color: #343a40;
+}
+
+.in-progress-list button:hover {
+  background-color: #e0a800;
+}
